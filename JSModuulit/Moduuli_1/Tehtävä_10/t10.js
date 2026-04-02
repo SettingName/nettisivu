@@ -16,7 +16,7 @@ function diceProb() {
         }
     }
 
-    document.querySelector('#prob').innerHTML = "Probability to get sum " + targetSum + " with " + dices + " dice is " + (hits / totalTrys * 100).toFixed(2) + "%";
+    document.querySelector("#prob").innerHTML = "Probability to get sum " + targetSum + " with " + dices + " dice is " + (hits / totalTrys * 100).toFixed(2) + "%";
 }
 
 diceProb()
